@@ -1,0 +1,565 @@
+/* basic reset */
+* { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* font */
+@font-face {
+    font-family: cerapro;
+    src: url(../font/Cera\ Pro\ Light.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: ceraprobold;
+    src: url(../font/Cera\ Pro\ Bold.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: cerapromedium;
+    src: url(../font/Cera\ Pro\ Medium.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body { overflow-x: hidden; }
+
+.carousel {
+    width: 724px;
+    height: 649px;
+    margin-left: 515px;
+    margin-top: -723px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+#carimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+/* base do site*/
+
+/* images */
+#logo {
+    margin: 39px 98px;
+    position: relative;
+}
+
+#bike {
+    transform: rotate(1.67deg);
+    position: relative;
+    z-index: 1;
+}
+
+#bg-image {
+    position: absolute;
+    z-index: 0;
+    margin-top: -54px;
+    left: 0px;
+}
+
+#work-text {
+    margin-top: 51.4px;
+}
+
+.text {
+    text-align: center !important;
+}
+
+nav {
+    position: fixed;
+    right: -15px;
+    top: 19px;
+    z-index: 2;
+}
+
+/* contact-us */
+.ctt-rectangles {
+    margin-left: 50px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+    .contact-us .text {
+        padding-top: 50px;
+        position: relative;
+        color: #FFF;
+    }
+        .contact-us h3 {
+            font-family: cerapromedium;
+            font-size: 50px;
+        }
+
+        .contact-us h5 {
+            font-family: cerapro;
+            font-size: 25px;
+        }
+
+    .contact-us .form {
+        padding-top: 30px;
+        padding-left: 450px;
+        position: relative;
+        text-align: center;
+    }
+        .contact-us input {
+            outline: none;
+            width: 300px;
+            margin: 20px 0;
+            font-size: 20px;
+            font-family: cerapro !important;
+            background-color: transparent;
+            border: 0;
+            border-bottom: 1px solid #FFF;
+            color: #FFF;
+            font-family: cerapro;
+        }
+            .contact-us input:focus {
+                transition-duration: 0.5s;
+                border-bottom: 1px solid #89bfb7;
+            }
+
+        .contact-us button {
+            outline: none;
+            margin-top: 30px;
+            background-color: transparent;
+            border: 0;
+        }
+
+/* home */
+.home .text{
+    margin-top: 10px;
+}
+
+    .home h3 {
+        font-family: cerapro;
+        font-size: 25px;
+        color: #F37029;
+    }
+
+    .home h1 {
+        font-family: ceraprobold;
+        font-size: 50px;
+        color: #202328;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-bottom: 95px;
+        -webkit-text-stroke: 0.5px #000;
+    }
+
+/* us */
+.us .text {
+    margin-top: 143.67px;
+}
+    .us p {
+        font-family: cerapro;
+        vertical-align: top;
+    }
+
+    .us h6 {
+        font-family: cerapromedium;
+        font-size: 20px;
+    }
+
+/* projects */
+.projects {
+    padding: 70px;
+}
+    .projects h5, p, h2{
+        font-family: cerapro;
+    }
+        .projects h5{
+            color: #302827;
+            font-size: 25px;
+        }
+        
+        .projects h3 {
+            font-family: cerapromedium;
+            margin-top: -40px;
+            color: #F46F2C;
+            font-size: 50px;
+        }
+
+        .projects h2 {
+            color: #107064;
+            font-size: 35px;
+        }
+
+        .projects p {
+            font-size: 18px;
+        }
+
+        .project-cont {
+            padding-top: 25px; 
+            margin-left: 35px;
+        }
+    
+    .square {
+        display: flex;
+        padding-top: 75px;
+        margin-left: 35px;
+    }
+        .square img{
+            position: absolute;
+        }
+        .square p {
+            margin-left: 55px;
+        }
+
+/* our work */
+.our-work {
+    padding: 70px;
+    margin: 250px 0 100px 0;
+    text-align: center;
+}
+    .our-work h3 {
+        font-family: cerapro;
+        color: #0F6F63;
+        font-size: 50px;
+    }
+
+/* clientes */
+#clientes {
+    margin-left: -50px;
+}
+
+.clientes .row {
+    align-items: center;
+    display: flex;
+    font-family: cerapro;
+}
+
+    .clienttext h5{
+        font-size: 40px;
+        color: #107064;
+    }
+
+    .clienttext h6 {
+        color: #202328;
+        font-size: 20px;
+    }
+
+/* manifesto */
+.manifesto {
+    font-family: cerapro;
+    margin-top: 75px;
+    padding: 0 196px;
+}
+    .manifesto h3 {
+        color: #FDBE33;
+        font-size: 25px;
+    }
+
+    .manifesto h1 {
+        color: #F46F2C;
+        font-size: 50px;
+    }
+
+    .manifesto p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+/* news */
+.news {
+    padding: 200px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#news-img {
+    position: absolute;
+}
+
+    .news h3 {
+        padding-left: 530px;
+        margin-bottom: 50px;
+        position: relative;
+        font-size: 30px; 
+        color: white; 
+    }
+
+    .news input {
+        padding-bottom: 20px;
+        margin-left: 600px;
+        text-align: center;
+        position: relative;
+        font-size: 25px; 
+        color: white;
+        font-family: cerapromedium;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+    }
+
+/* footer */
+.footer .three.columns {
+    position: relative;
+    font-family: cerapro;
+    padding: 115px 40px 0;
+}
+    #footer-logo {
+        margin-top: 50px;
+    }
+
+    .footer h5{
+        color: #FDBE33;
+        font-size: 25px;
+    }
+        .footer p, a{
+            margin-top: -15px;
+            color: #FFF;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .social-links {
+            margin-left: -77px;
+        }
+            .social-media li {
+                list-style: none;
+                float: left;
+                margin-right: 20px;
+            }
+        
+                .social-media li a {
+                    font-size: 25px;
+                    color: #fff !important;
+                }
+
+/* ajustes na responsividade */
+
+/* mobile */
+@media (max-width: 480px) {
+    nav {
+        display: none !important;
+    }
+
+    #logo {
+        margin: 40px 28px;
+    }
+
+    .us p {
+        padding-top: 50px;
+        line-height: 55px;
+        font-size: 25px;
+        color: #202328;
+    }
+
+    .us h6 {
+        display: unset;
+    }
+
+    .projects, .projects .five.columns {
+        text-align: center;
+        padding: 70px 0 0 0;
+    }
+        .project-cont { 
+            margin-left: 0;
+        }
+
+    .square {
+        text-align: left;
+        padding-top: 75px;
+        margin-left: 0px;
+    }
+        .square p {
+            margin-right: 50px;
+        }
+
+    .carousel {
+        width: 300px;
+        height: 349px;
+        margin-left: 0;
+        margin-top: 70px;
+        margin-bottom: -100px !important;
+        border-radius: 25px;
+        background-color: transparent;
+    }
+
+    body {
+        margin-left: -3px !important;
+    }
+
+    .manifesto {
+        padding: 0;
+    }
+
+    .news {
+        display: none;
+    }
+
+    .our-work {
+        padding: 0;
+    }
+        #work-text {
+            margin-bottom: 50px;
+        }
+
+    .rectangles {
+        width: 91.3333333333% !important;
+        margin-right: -60px;
+    }
+
+    .clienttext {
+        display: flex;
+        width: 4.66666666667% !important;
+    }
+        .clienttext img, h6 {
+            display: none;
+        }
+
+        .clienttext h5 {
+            font-size: 35px;
+            transform: rotate(90deg);
+        }
+
+    #foguete {
+        display: none;
+    }
+
+    .footer {
+        background-color: #107064;
+        padding-bottom: 30px;
+    }
+        #footer-img {
+            display: none;
+        }
+
+        .footer .three.columns {
+            position: relative;
+            font-family: cerapro;
+            padding: 30px 40px 0;
+        }
+}
+
+/* tablets */
+@media (min-width: 600px) {
+    nav {
+        display: none !important;
+    }
+
+    .us .text {
+        margin-left: 27px !important;
+    }
+        .us p {
+            line-height: 75px;
+            font-size: 29px;
+            margin-top: 250px;
+            color: #202328;
+        }
+
+        .projects, .projects .five.columns {
+            width: 100%;
+        }
+    
+        .carousel {
+            width: 600px;
+            height: 400px;
+            margin-left: 0;
+            margin-top: 70px;
+            margin-bottom: 150px !important;
+        }
+
+    .our-work {
+        padding: 0 30px;
+        margin: 70px 0;
+    }
+        #work-list {
+            margin-top: 50px;
+        }
+
+        #foguete {
+            display: none;
+        }
+    
+        .manifesto {
+            padding: 50px;
+        }
+    
+        .news {
+            display: none;
+        }
+
+        .footer {
+            background-color: #107064;
+            padding-bottom: 30px;
+        }
+            #footer-img {
+                display: none;
+            }
+    
+            .footer .three.columns {
+                position: relative;
+                font-family: cerapro;
+                padding: 10px;
+            }
+                footer h5{
+                    font-size: 15px;
+                }
+                    .footer p, a{
+                        font-size: 15px;
+                    }
+}
+
+/* desktop */
+@media (min-width: 1000px) {
+    nav {
+        display: unset !important;
+    }
+    
+    .projects .five.columns {
+        width: 39.3333333333%;
+    }
+
+    .carousel {
+        width: 724px;
+        height: 649px;
+        margin-left: 515px;
+        margin-top: -723px;
+    }
+
+    .manifesto {
+        padding: 0 196px;
+    }
+        #foguete {
+            display: unset;
+        }
+
+    .us .text {
+        margin: -143.67px 0 250px 0;
+    }
+    
+        .us p {
+            color: #FFF;
+        }
+
+    .news {
+        display: flex;
+    }
+
+    .footer {
+        background-color:transparent;
+        padding-bottom: 30px;
+    }
+            #footer-img {
+                display: unset;
+            }
+    
+            .footer .three.columns {
+                position: relative;
+                font-family: cerapro;
+                padding: 115px 40px 0;
+            }
+
+    .project-title {
+        margin-left: 100px;
+    }
+}
