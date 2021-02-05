@@ -67,11 +67,8 @@ nav {
 
 /* contact-us */
 .ctt-rectangles {
-    margin-left: 50px;
-    display: flex;
     position: absolute;
-    justify-content: center;
-    align-items: center;
+    margin-left: 55px;
 }
     .contact-us .text {
         padding-top: 50px;
@@ -433,6 +430,27 @@ nav {
             font-family: cerapro;
             padding: 30px 40px 0;
         }
+    
+    .contact-us {
+        text-align: center;
+    }
+        .ctt-rectangles {
+            display: none;
+        }
+
+        .contact-us .text {
+            color: #353535;
+        }
+
+        .contact-us .form {
+            padding-left: 0;
+            margin-bottom: 100px;
+        }
+            .contact-us input {
+                border-bottom: 1px solid #353535;
+                color: #353535;
+            }
+
 }
 
 /* tablets */
@@ -507,6 +525,26 @@ nav {
                     .footer p, a{
                         font-size: 15px;
                     }
+
+    .ctt-rectangles {
+        display: none;
+    }
+        .contact-us .text {
+            color: #353535;
+        }
+
+        .contact-us .form {
+            padding-left: 0;
+            margin-bottom: -100px;
+        }
+            .contact-us input {
+                width: 60%;
+                border-bottom: 1px solid #353535;
+                color: #353535;
+            }
+                .contact-us input:focus {
+                    border-bottom: 1px solid #bfbfbf;
+                }
 }
 
 /* desktop */
@@ -562,4 +600,24 @@ nav {
     .project-title {
         margin-left: 100px;
     }
+
+    .ctt-rectangles {
+        display: unset;
+    }
+        .contact-us .text {
+            color: #FFF;
+        }
+
+        .contact-us .form {
+            padding-left: 450px;
+            margin-bottom: -100px;
+        }
+            .contact-us input {
+                width: 300px;
+                border-bottom: 1px solid #FFF;
+                color: #FFF;
+            }
+                .contact-us input:focus {
+                    border-bottom: 1px solid #bfbfbf;
+                }
 }
