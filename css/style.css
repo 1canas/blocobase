@@ -558,7 +558,7 @@ body { overflow-x: hidden; }
 /* desktop */
 @media (min-width: 1000px) {
     .us .text {
-        margin-top: 120px;
+        margin-top: 90px;
     }
 
     .us p {
