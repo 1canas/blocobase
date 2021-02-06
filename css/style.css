@@ -563,7 +563,7 @@ body { overflow-x: hidden; }
     }
 
     .us p {
-        margin-top: 100px;
+        margin-top: 0;
     }
 
     .carousel {
@@ -630,6 +630,10 @@ body { overflow-x: hidden; }
 @media (min-width: 1200px) {
     .projects {
         margin-top: 200px;
+    }
+    
+    .us p {
+        margin-top: 100px;
     }
 
     .projects .five.columns {
