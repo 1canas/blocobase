@@ -575,6 +575,7 @@ body { overflow-x: hidden; }
 
     .manifesto {
         padding: 0 196px;
+        margin-bottom: 100px;
     }
     
         .us p {
@@ -591,8 +592,7 @@ body { overflow-x: hidden; }
 
     #foguete {
         display: unset;
-        margin-top: 75px; 
-        margin-left: 230px;
+        position: absolute;
     }
 
     .ctt-rectangles {
@@ -633,10 +633,6 @@ body { overflow-x: hidden; }
 
     .projects .five.columns {
         width: 39.3333333333%;
-    }
-
-    #foguete {
-        margin-left: 750px
     }
 
     .carousel {
@@ -703,10 +699,6 @@ body { overflow-x: hidden; }
         margin-bottom: 400px;
     }
 
-    #foguete {
-        margin-top: -50px;
-    }
-
     .carousel {
         width: 724px;
         height: 649px;
@@ -759,10 +751,6 @@ body { overflow-x: hidden; }
         margin-left: 715px !important;
     }
 
-    #foguete {
-        margin-left: 970px;
-    }
-
 
     .news input {
         margin-bottom: 20px;
@@ -798,10 +786,6 @@ body { overflow-x: hidden; }
         background-color: transparent;
         border: 0;
         outline: none;
-    }
-
-    #foguete {
-        margin-left: 1100px;
     }
 
     .us {
