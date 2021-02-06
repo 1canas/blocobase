@@ -42,6 +42,7 @@ body { overflow-x: hidden; }
 #bg-image {
     position: absolute;
     z-index: 0;
+    width: 100%;
     margin-top: -79px;
     left: 0px;
 }
@@ -140,8 +141,8 @@ body { overflow-x: hidden; }
     }
 
 /* us */
-.us .text {
-    margin-top: 143.67px;
+.us .row {
+    text-align: center;
 }
     .us p {
         font-family: cerapro;
@@ -305,6 +306,7 @@ body { overflow-x: hidden; }
     padding: 115px 40px 0;
 }
     #footer-logo {
+        width: 100%;
         margin-top: 50px;
     }
 
@@ -466,7 +468,7 @@ body { overflow-x: hidden; }
 /* tablets */
 @media (min-width: 600px) {
     .us .text {
-        margin-left: 27px !important;
+        margin-top: 150px;
     }
         .us p {
             line-height: 75px;
@@ -555,27 +557,24 @@ body { overflow-x: hidden; }
 
 /* desktop */
 @media (min-width: 1000px) {
-    
-    .projects .five.columns {
-        width: 39.3333333333%;
+    .us .text {
+        margin-top: 20px;
+    }
+
+    .us p {
+        margin-top: 0;
     }
 
     .carousel {
-        width: 724px;
-        height: 649px;
-        margin-left: 515px;
-        margin-top: -723px;
+        width: 900px;
+        height: 900px;
+        margin-left: -85px;
+        margin-top: 70px;
+        margin-bottom: -50px !important;
     }
 
     .manifesto {
         padding: 0 196px;
-    }
-        #foguete {
-            display: unset;
-        }
-
-    .us .text {
-        margin: -143.67px 0 250px 0;
     }
     
         .us p {
@@ -585,20 +584,6 @@ body { overflow-x: hidden; }
     .news {
         display: flex;
     }
-
-    .footer {
-        background-color:transparent;
-        padding-bottom: 30px;
-    }
-            #footer-img {
-                display: unset;
-            }
-    
-            .footer .three.columns {
-                position: relative;
-                font-family: cerapro;
-                padding: 115px 40px 0;
-            }
 
     .project-title {
         margin-left: 100px;
@@ -623,4 +608,180 @@ body { overflow-x: hidden; }
                 .contact-us input:focus {
                     border-bottom: 1px solid #bfbfbf;
                 }
+
+                .news h3 {
+                    padding-left: 360px;
+                    margin-bottom: 50px;
+                }
+            
+                .news input {
+                    margin-bottom: 40px;
+                    margin-left: 425px;
+                }
+}
+
+@media (min-width: 1200px) {
+    .projects {
+        margin-top: 200px;
+    }
+
+    .projects .five.columns {
+        width: 39.3333333333%;
+    }
+
+    .carousel {
+        width: 724px;
+        height: 649px;
+        margin-left: 515px;
+        margin-top: -723px;
+    }
+
+    .footer .three.columns {
+        position: relative;
+        font-family: cerapro;
+        padding: 115px 40px 0;
+    }
+
+    .footer {
+        background-color: transparent;
+        padding-bottom: 30px;
+    }
+        #footer-img {
+            display: unset;
+        }
+
+    /* news */
+.news {
+    padding: 200px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#news-img {
+    position: absolute;
+}
+
+    .news h3 {
+        padding-left: 530px;
+        margin-bottom: 50px;
+        position: relative;
+        font-size: 30px; 
+        color: white; 
+    }
+
+    .news input {
+        margin-bottom: 20px;
+        margin-left: 600px;
+        text-align: center;
+        position: relative;
+        font-size: 25px; 
+        color: white;
+        font-family: cerapromedium;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+    }
+}
+
+@media (min-width: 1600px) {
+    .us .text {
+        margin-top: 150px;
+    }
+
+    .us {
+        margin-bottom: 400px;
+    }
+
+    .carousel {
+        width: 724px;
+        height: 649px;
+        margin-left: 715px;
+    }
+    
+    .news h3 {
+        padding-left: 660px;
+        margin-bottom: 50px;
+        position: relative;
+        font-size: 30px; 
+        color: white; 
+    }
+
+    .news input {
+        margin-bottom: 20px;
+        margin-left: 730px;
+        text-align: center;
+        position: relative;
+        font-size: 25px; 
+        color: white;
+        font-family: cerapromedium;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+    }
+
+    .footer .three.columns{
+        padding-bottom: 40px;
+    }
+        #footer-img {
+            height: 100%;
+            width: 100%;
+            display: unset;
+        }
+}
+
+@media (min-width: 1680px) {
+    .news h3 {
+        padding-left: 670px;
+        margin-bottom: 50px;
+        position: relative;
+        font-size: 30px; 
+        color: white; 
+    }
+
+    .news input {
+        margin-bottom: 20px;
+        margin-left: 760px;
+        text-align: center;
+        position: relative;
+        font-size: 25px; 
+        color: white;
+        font-family: cerapromedium;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+    }
+}
+
+@media (min-width: 1680px) {
+    .news h3 {
+        padding-left: 840px;
+        margin-bottom: 50px;
+        position: relative;
+        font-size: 30px; 
+        color: white; 
+    }
+
+    .news input {
+        margin-bottom: 20px;
+        margin-left: 910px;
+        text-align: center;
+        position: relative;
+        font-size: 25px; 
+        color: white;
+        font-family: cerapromedium;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+    }
+
+    .us {
+        margin-bottom: 600px;
+    }
+
+    .carousel {
+        width: 724px;
+        height: 649px;
+        margin-left: 1015px;
+    }
 }
