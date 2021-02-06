@@ -563,6 +563,7 @@ body { overflow-x: hidden; }
 
     .us p {
         margin-top: 0;
+        line-height: 15px;
         font-size: 20px;
     }
 
