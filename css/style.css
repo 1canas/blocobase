@@ -558,7 +558,7 @@ body { overflow-x: hidden; }
 /* desktop */
 @media (min-width: 1000px) {
     .us .text {
-        margin-top: 90px;
+        margin-top: 20px;
     }
 
     .us p {
@@ -587,6 +587,12 @@ body { overflow-x: hidden; }
 
     .project-title {
         margin-left: 100px;
+    }
+
+    #foguete {
+        display: unset;
+        margin-top: 75px; 
+        margin-left: 230px;
     }
 
     .ctt-rectangles {
@@ -627,6 +633,10 @@ body { overflow-x: hidden; }
 
     .projects .five.columns {
         width: 39.3333333333%;
+    }
+
+    #foguete {
+        margin-left: 750px
     }
 
     .carousel {
@@ -693,6 +703,10 @@ body { overflow-x: hidden; }
         margin-bottom: 400px;
     }
 
+    #foguete {
+        margin-top: -50px;
+    }
+
     .carousel {
         width: 724px;
         height: 649px;
@@ -745,6 +759,11 @@ body { overflow-x: hidden; }
         margin-left: 715px !important;
     }
 
+    #foguete {
+        margin-left: 970px;
+    }
+
+
     .news input {
         margin-bottom: 20px;
         margin-left: 760px !important;
@@ -779,6 +798,10 @@ body { overflow-x: hidden; }
         background-color: transparent;
         border: 0;
         outline: none;
+    }
+
+    #foguete {
+        margin-left: 1100px;
     }
 
     .us {
