@@ -563,7 +563,7 @@ body { overflow-x: hidden; }
     }
 
     .us p {
-        margin-top: 0;
+        margin-top: 100px;
     }
 
     .carousel {
