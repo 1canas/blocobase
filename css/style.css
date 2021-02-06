@@ -732,16 +732,22 @@ body { overflow-x: hidden; }
 
 @media (min-width: 1680px) {
     .news h3 {
-        padding-left: 670px;
+        padding-left: 700px !important;
         margin-bottom: 50px;
         position: relative;
         font-size: 30px; 
         color: white; 
     }
 
+    .carousel {
+        width: 724px;
+        height: 649px;
+        margin-left: 715px !important;
+    }
+
     .news input {
         margin-bottom: 20px;
-        margin-left: 760px;
+        margin-left: 760px !important;
         text-align: center;
         position: relative;
         font-size: 25px; 
@@ -753,9 +759,9 @@ body { overflow-x: hidden; }
     }
 }
 
-@media (min-width: 1680px) {
+@media (min-width: 1980px) {
     .news h3 {
-        padding-left: 840px;
+        padding-left: 840px !important;
         margin-bottom: 50px;
         position: relative;
         font-size: 30px; 
@@ -764,7 +770,7 @@ body { overflow-x: hidden; }
 
     .news input {
         margin-bottom: 20px;
-        margin-left: 910px;
+        margin-left: 910px !important;
         text-align: center;
         position: relative;
         font-size: 25px; 
@@ -782,6 +788,6 @@ body { overflow-x: hidden; }
     .carousel {
         width: 724px;
         height: 649px;
-        margin-left: 1015px;
+        margin-left: 1015px !important;
     }
 }
