@@ -145,6 +145,7 @@ body { overflow-x: hidden; }
     text-align: center;
 }
     .us p {
+        margin-top: 100px;
         font-family: cerapro;
         vertical-align: top;
     }
@@ -357,7 +358,7 @@ body { overflow-x: hidden; }
         }
 
     .us p {
-        padding-top: 150px;
+        padding-top: 50px;
         line-height: 55px;
         font-size: 25px;
         color: #202328;
