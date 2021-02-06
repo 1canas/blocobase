@@ -730,7 +730,11 @@ body { overflow-x: hidden; }
         border: 0;
         outline: none;
     }
-
+    
+    .footer {
+        padding-bottom: 0;    
+    }
+    
     .footer .three.columns{
         padding-bottom: 40px;
     }
